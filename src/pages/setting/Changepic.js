@@ -107,6 +107,7 @@ const ChangePic = () => {
                                     )}
                                     {assetData && (
                                         <img
+                                            alt='newImage'
                                             src={assetData.url}
                                             className='w-40 rounded-lg mb-3'
                                         />
